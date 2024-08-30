@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url('Nilgiris.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(212, 43, 43, 0.5); 
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #61dafb;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #21a1f1;
+}
+
+section {
+    padding: 70px 25px;
+    text-align: center;
+    background-image: url('Nilgiris1.jpg');
+}
+
+.about-sec,
+.services-sec,
+.contact-sec {
+    
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.services-sec {
+    background-color: #eaeaea;
+}
+
+.service-card {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.footer {
+    padding: 20px;
+    background-image: url('nilgiris11.jpg');
+    color: rgb(9, 9, 9);
+    text-align: center;
+}
